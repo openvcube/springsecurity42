@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<tomcat-users>
+
+  <role rolename="adminrole"/>
+  <user username="rod" password="68e52caa3e66dbc89685b637857fdab5" 
+		roles="adminrole"/>
+
+</tomcat-users>

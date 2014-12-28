@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<tomcat-users>
+
+  <role rolename="adminrole"/>
+  <user username="EMAILADDRESS=rod@open-v.com, CN=rod, OU=Consulant, O=OpenV, L=GuangZhou, ST=GuangDong, C=CN" 
+	password="" roles="adminrole"/>
+
+</tomcat-users>
