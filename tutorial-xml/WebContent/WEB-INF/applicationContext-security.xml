@@ -45,7 +45,7 @@
     <bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
 
     <security:authentication-manager>
-        <security:authentication-provider>        	
+        <security:authentication-provider>
             <security:password-encoder ref="encoder"/>
             <security:user-service>
                 <security:user name="rod" password="$2a$10$75pBjapg4Nl8Pzd.3JRnUe7PDJmk9qBGwNEJDAlA3V.dEJxcDKn5O" authorities="supervisor, user, teller"/>
